@@ -298,7 +298,7 @@ function App() {
                    <span className="text-sm font-bold"><img src="./public/krasner1.png"></img></span>
                  </div>
                  <p className="font-mono text-xs text-center border-t border-dashed border-[#1A1818] pt-2">
-                   Lee Krasner in her studio.
+                   Lee Krasner in her studio. (1956)
                  </p>
                </div>
              </div>
