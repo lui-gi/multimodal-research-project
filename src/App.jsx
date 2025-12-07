@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react'
-import './App.css'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -60,7 +59,7 @@ function App() {
         isLoaded ? '-translate-y-full' : 'translate-y-0'
       }`} style={{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 90%)'}}>
         <h1 className="text-[#F2EFE9] text-5xl md:text-8xl font-black tracking-tighter uppercase animate-pulse transform -rotate-2">
-          The Seasons
+          Artifact #3
         </h1>
       </div>
 
@@ -71,7 +70,7 @@ function App() {
 
       {/* HERO SECTION 
       */}
-      <section className="relative min-h-screen w-full flex items-center justify-center bg-[#F2EFE9] overflow-hidden">
+      <section className="relative min-h-screen w-full flex items-center justify-center bg-[#F2EFE9] overflow-hidden pt-5">
         
         {/* Animated Background Blobs (Full Screen) */}
         <div className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] bg-[#BE1E5D] opacity-10 blur-3xl rounded-full animate-pulse"></div>
@@ -150,18 +149,24 @@ function App() {
           <div className="grid grid-cols-12 gap-12 items-center">
             
             {/* Painting Container - Slide In Left */}
-            <div className="col-span-12 md:col-span-9 relative animate-on-scroll slide-right">
-              {/* Backing shape */}
-              <div className="absolute inset-0 bg-[#BE1E5D] transform rotate-1 rounded-[2%] shadow-[12px_12px_0px_0px_#1A1818]" style={{clipPath: 'polygon(0 5%, 100% 0, 95% 100%, 0% 100%)'}}></div>
+            <div className="col-span-12 md:col-span-9 animate-on-scroll slide-right">
               
-              {/* The Painting */}
-              <div className="relative bg-white p-2 transform -rotate-1 hover:rotate-0 transition-transform duration-500 ease-out" style={{clipPath: 'polygon(1% 1%, 99% 0%, 100% 98%, 0% 100%)'}}>
-                <div className="bg-neutral-200 aspect-[2.2/1] w-full flex items-center justify-center relative overflow-hidden group cursor-crosshair">
-                  <span className="text-neutral-500 font-bold tracking-widest group-hover:scale-110 transition-transform duration-700">[INSERT PAINTING IMAGE HERE]</span>
-                  <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"></div>
-                </div>
+              {/* Painting + Backing Wrapper */}
+              {/* This relative wrapper ensures the absolute pink shape is confined here */}
+              <div className="relative">
+                  {/* Backing shape */}
+                  <div className="absolute inset-0 bg-[#BE1E5D] transform rotate-1 rounded-[2%] shadow-[12px_12px_0px_0px_#1A1818]" style={{clipPath: 'polygon(0 5%, 100% 0, 95% 100%, 0% 100%)'}}></div>
+                  
+                  {/* The Painting */}
+                  <div className="relative bg-white p-2 transform -rotate-1 hover:rotate-0 transition-transform duration-500 ease-out" style={{clipPath: 'polygon(1% 1%, 99% 0%, 100% 98%, 0% 100%)'}}>
+                    <div className="bg-neutral-200 aspect-[2.2/1] w-full flex items-center justify-center relative overflow-hidden group cursor-crosshair">
+                      <span className="text-neutral-500 font-bold tracking-widest group-hover:scale-110 transition-transform duration-700"><img src="./public/the-seasons.jpeg"></img></span>
+                      <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"></div>
+                    </div>
+                  </div>
               </div>
               
+              {/* Caption - Now outside the relative wrapper so it flows below */}
               <div className="pl-6 mt-8 border-l-4 border-[#2A4A36]">
                 <p className="font-bold text-lg uppercase tracking-wide">Fig 1. Lee Krasner, <span className="italic">The Seasons</span>, 1957.</p>
                 <p className="text-sm text-neutral-600 italic">Oil and house paint on canvas, 92 3/4 x 203 7/8 in.</p>
@@ -290,7 +295,7 @@ function App() {
                <div className="bg-white p-4 shadow-xl transform rotate-3 w-80 relative hover:rotate-6 transition-transform duration-300">
                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#2A4A36] rounded-full z-20"></div>
                  <div className="bg-neutral-200 aspect-[3/4] w-full mb-4 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500">
-                   <span className="text-sm font-bold">[PHOTO OF LEE KRASNER]</span>
+                   <span className="text-sm font-bold"><img src="./public/krasner1.png"></img></span>
                  </div>
                  <p className="font-mono text-xs text-center border-t border-dashed border-[#1A1818] pt-2">
                    Lee Krasner in her studio.
@@ -332,7 +337,7 @@ function App() {
          <div className="absolute top-0 left-0 w-full h-8 bg-white" style={{clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 0)'}}></div>
          <div className="max-w-6xl mx-auto px-6 text-center">
           <p className="text-white font-bold text-sm md:text-base font-mono uppercase tracking-wide">
-            A multimodal research project by [Your Name] for Dr. Sturm's Fall 2025 ENGL 1102 course at Georgia State University
+            A multimodal research project by Luigi Fernandez for Dr. Sturm's Fall 2025 ENGL 1102 course at Georgia State University
           </p>
         </div>
       </footer>
