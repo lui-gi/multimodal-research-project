@@ -226,28 +226,36 @@ function App() {
             <div className="col-span-12 md:col-span-8">
               <div className="animate-on-scroll fade-up bg-[#F2EFE9] text-[#1A1818] p-10 md:p-16 shadow-[20px_20px_0px_0px_#1A1818] transform rotate-1"
                    style={{clipPath: 'polygon(2% 0%, 99% 1%, 100% 98%, 1% 99%)'}}>
-                <p className="text-lg leading-relaxed mb-6 font-medium">
-                  [Opening paragraph: Begin with the immediate visual impact of the work. Discuss the sweeping scale and the interplay of the organic forms. Ensure you cite your observations if referring to specific critiques: "The forms suggest a garden in bloom" (Critic 24).]
+                <p className="text-sm leading-relaxed mb-6 font-medium">
+When you look at The Seasons (1957) by Lee Krasner, you see a huge, striking burst of massive rounded shapes in hot pink, fleshy pink, green, and white that are all tangled in thick, dark lines. These big formations feel almost organic, like giant fruits or even cells; the hot-pink areas swell like enormous growing fruits or budding flowers whereas the leafy-green patches are applied throughout the piece more thinly, suggesting an unkempt garden. The center of the work immediately grabs any viewer’s attention, featuring a large, dominant fleshy orb that looks as if it is swallowing the surrounding shapes due to its sheer size, like it has its own gravity. You then follow the restless vine-looking lines as they wriggle to the right, carving a clear guide of where to direct your attention through the piece. Eventually, you find yourself right back in the middle of the composition, where you uncover what seems to be an upside-down heart. This heart-like form also looks as if the surrounding shapes are bearing the shape like a fruit, almost to the point of growing too heavy and dropping to the floor. 
                 </p>
                 
+                
+
+                <p className="text-sm leading-relaxed mb-6">
+Upon taking a few steps back (away from the painting), one can see the sheer size of the piece. The canvas is nearly 17 feet long and 8 feet tall, and so it is very easy to get immersed in it. The horizontal length of the painting forces the viewer to scan the sections one at a time rather than the big picture. It is as if we are standing at the top of a mountain, surrounded by this lush green and pink landscape that Krasner envisioned. The sheer length facilitates a viewing experience that grows and unfolds over time, similar to the changing of “seasons” as the title of the piece suggests. In addition, the greens at the very left of the piece are paler and weaker than the greens present at the very right of the piece, suggesting that the piece begins with fall then ends with spring. The “changing seasons” aspect of the piece is further backed up as the physical width of the canvas forces the viewer to experience the painting as a sequence of events rather than one single event.
+
+                </p>
+
+                <p className="text-sm leading-relaxed mb-6">
+                  Shifting our focus from the greenery to the pink sections, we see that the brushwork is dense and meaty, but in the green and black areas, the paint thins and visibly drips down the canvas, like it is still wet and in motion. This effect records the speed and energy of the painting's creation, like it is showing how Krasner was moving with the piece. It does not feel like a static image, but rather it feels more like the reenactment of an event, an explosion of raw, almost furious energy. 
+                </p>
+                
+                <p className="text-sm leading-relaxed mb-6">
+This explosion of energy is even more interesting when bundled with the historical context of the piece. This painting is famously one of the first Krasner made in Jackson Pollock's barn studio right after he died. Knowing that, you cannot help but see the painting in a new light. It does not read as sad or mournful. Instead, it feels like a defiant statement bundled with the emotional representation of Krasner at the time. All this pent-up energy is finally being unleashed on this massive canvas. It is alive because it is both joyful and aggressive, a feeling Murray perfectly captures as a "furious jubilation" (Murray 133). It is as if Krasner is processing everything at the same time; she is simultaneously feeling grief, freedom, and rebirth and dumping it all right there on the canvas.
+                </p>
                 {/* Pull Quote */}
                 <div className="my-10 relative animate-on-scroll pop-in">
                    <div className="absolute inset-0 bg-[#6BAF58] transform -rotate-1 skew-x-12 opacity-30 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] scale-110"></div>
-                   <p className="relative text-2xl font-black italic text-[#2A4A36] text-center px-8 py-4">
-                     "Quote regarding the visual nature of the work." (Author Page)
-                   </p>
+                   <p className="relative text-sm font-black italic text-[#2A4A36] text-center px-8 py-4">
+Further supported by the quote "her
+feat of vibrantly outliving the insufferable Pollock by almost thirty
+years," (Murray 134)"              </p>
                 </div>
 
-                <p className="text-lg leading-relaxed mb-6">
-                  [Second paragraph: Focus on color. Describe the specific fleshy pinks and deep greens. How do they interact? Use citations: (Author Page).]
-                </p>
+                <p className="text-sm leading-relaxed mb-6">
+	Krasner not only manifests her grief on the canvas, but it seems like she paints her perspective as a woman, as well. Throughout the painting, there are many feminine characteristics such as the fleshy pinks, the peach-like shapes that suggest fertility, flowery shapes such as petals, as well as “breastlike forms,” as art historian Hobbs identifies (Hobbs 5). Krasner seemed to have made the piece a projection of her own body, seeing as the canvas is flowing with this chaotic, life-bearing energy thanks to the abundance of natural elements (plants, fruits, flowers).
 
-                <p className="text-lg leading-relaxed mb-6">
-                  [Third paragraph: Discuss the line work and composition. Are the lines aggressive or fluid? Continue until you reach the ~700 word requirement.]
-                </p>
-                
-                <p className="text-lg leading-relaxed">
-                  [Closing visual description paragraph.]
                 </p>
               </div>
             </div>
@@ -271,7 +279,7 @@ function App() {
            <div className="mb-16 text-center animate-on-scroll fade-up">
              <div className="inline-block bg-[#1A1818] px-12 py-6 transform -rotate-1 rounded-[5px_50px_5px_50px] shadow-[10px_10px_0px_0px_#BE1E5D]">
                <h2 className="text-4xl md:text-5xl font-black text-white uppercase">
-                 Analysis & Interpretation
+                 Analysis 
                </h2>
              </div>
            </div>
