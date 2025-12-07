@@ -8,7 +8,8 @@
 
 ## 📖 Project Overview
 
-This repository contains the source materials, drafts, and visual assets for **Artifact #3**, a Multimodal Research Project. This instructive website is designed to showcase my research for Dr. Sturm's
+This repository contains all the core site files for my instructive website.
+This instructive website is designed to showcase my research for Dr. Sturm's
 ENGL 1102 final project where I conducted heavy research on Lee Krasner, the Abstract Expressionist movement,
 and her piece "The Seasons." I decided to ditch the website builders and create my own SPA from the ground-up.
 

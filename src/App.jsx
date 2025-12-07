@@ -168,7 +168,7 @@ function App() {
               
               {/* Caption - Now outside the relative wrapper so it flows below */}
               <div className="pl-6 mt-8 border-l-4 border-[#2A4A36]">
-                <p className="font-bold text-lg uppercase tracking-wide">Fig 1. Lee Krasner, <span className="italic">The Seasons</span>, 1957.</p>
+                <p className="font-bold text-lg uppercase tracking-wide">Lee Krasner, <span className="italic">The Seasons</span>, 1957.</p>
                 <p className="text-sm text-neutral-600 italic">Oil and house paint on canvas, 92 3/4 x 203 7/8 in.</p>
               </div>
             </div>
