@@ -24,5 +24,5 @@ The project focuses on two main written components:
 
 ## 🔗 Live Project
 
-**[Click here to view the published website](Insert_Your_URL_Here)**
+**[Click here to view the published website](https://lfernandezengl1102.netlify.app/)**
 
