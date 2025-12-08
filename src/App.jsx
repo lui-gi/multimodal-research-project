@@ -287,14 +287,17 @@ years," (Murray 134)"              </p>
            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
              {/* Analysis Text */}
              <div className="order-2 md:order-1 border-l-[12px] border-[#BE1E5D] pl-8 py-2 border-dashed animate-on-scroll slide-right">
-               <p className="text-lg leading-relaxed mb-6">
-                 [Analysis Paragraph 1: Interpret the meaning. Connect the "seasons" title to the cycle of life and death often discussed in Krasner's work during this period. Include citations: (Author Page).]
+               <p className="text-sm leading-relaxed mb-6 font-black">
+The big ideas circulating in this painting seem to be about the impermanence of life, rebirth, and personal renewal. Throughout the painting, we are greeted with motifs of life and change, as apparent with the fruit-like shapes and the growing greenery. The title “The Seasons” also serves to explain the living characteristics of the piece as well as the fertility and life in it. But the title also focuses our attention on the idea of time moving forward. It implies that just like nature has to go through winter to get to spring, people have to go through hard times to find new growth. Moreover, the sheer size of the canvas forces the viewer to confront these cycles not as static events, but as a continuous flow that grows and unfolds.
+
                </p>
-               <p className="text-lg leading-relaxed mb-6">
-                 [Analysis Paragraph 2: Discuss the historical context (Abstract Expressionism, 1957). How does this work reflect the era or deviate from it? Include citations: (Author Page).]
+               <p className="text-sm leading-relaxed mb-6 font-black">
+This artwork leads us to imagine how the time of the painting marked a big change in Krasner’s life, where she was finally free from her husband. It was conceived shortly after her husband, Jackson Pollock, passed away, which could explain the wildness and livid energy that can be seen throughout the canvas. The long, thick brushstrokes as well as the dripping paint, signifying that the stroke was done quickly and savagely could be explained by the specific historical moment of taking place immediately after his death. The significance of this painting, if one had to explain it to another, would point to the raw energy it exerts. It is interesting because the painting acts like a physical record of her emotions, showing exactly where her grief turned into creative power. It is as if the painting is the release of everything she held back, a sentiment Murray describes as a "furious jubilation" (Murray 133).
+
                </p>
-               <p className="text-lg leading-relaxed">
-                 [Conclusion: Summarize the significance of the work.]
+               <p className="text-sm leading-relaxed mb-6 font-black">
+However, the piece also poses a significant question as to whether or not Krasner truly believed her own words. In an interview, she stated, “When I am painting, and this is a heroic task, the question of male or female is irrelevant” (Rago 237). Yet, The Seasons is scattered with feminine imagery, from the curvaceous forms to the fertile, fruit-like shapes. This contradiction forces us to consider if she was trying to separate her gender from her work, or if her subconscious perspective as a woman was simply too strong to ignore. Ultimately, the painting stands as a complex record of a woman processing grief and freedom simultaneously.
+
                </p>
              </div>
 
@@ -328,13 +331,20 @@ years," (Murray 134)"              </p>
           </h2>
           <div className="font-mono text-sm space-y-6 border-l-2 border-[#6BAF58] pl-8">
             <p className="-indent-8 ml-8 hover:text-[#BE1E5D] transition-colors cursor-default">
-              Krasner, Lee. <em>The Seasons</em>. 1957, Whitney Museum of American Art, New York.
+Hobbs, Robert. “Lee Krasner’s Skepticism and Her Emergent Postmodernism.” Woman’s 
+Art Journal, vol. 28, no. 2, 2007, pp. 3–10. JSTOR, 
+http://www.jstor.org/stable/20358125. Accessed 9 Oct. 2025.
             </p>
             <p className="-indent-8 ml-8 hover:text-[#BE1E5D] transition-colors cursor-default">
-              [Last Name, First Name. "Article Title." <em>Journal Title</em>, vol. #, no. #, Year, pp. #-#.]
+              Murray, Yxta Maya. “The Seasons.” Chicago Review, vol. 60, no. 2, 2016, pp. 132–34. 
+JSTOR, http://www.jstor.org/stable/26379970. Accessed 9 Oct. 2025
+
             </p>
             <p className="-indent-8 ml-8 hover:text-[#BE1E5D] transition-colors cursor-default">
-              [Source 3 formatted in MLA...]
+              Rago, Louise Elliott, and Lee Krasner. “We Interview Lee Krasner.” Reading Abstract 
+Expressionism: Context and Critique, edited by Ellen G. Landau, Yale University Press, 2005, 
+pp. 236–39. JSTOR, http://www.jstor.org/stable/j.ctt32bk1z.34. Accessed 9 Oct. 2025.
+
             </p>
           </div>
         </div>
