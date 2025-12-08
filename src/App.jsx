@@ -169,21 +169,27 @@ function App() {
               {/* Caption - Now outside the relative wrapper so it flows below */}
               <div className="pl-6 mt-8 border-l-4 border-[#2A4A36]">
                 <p className="font-bold text-lg uppercase tracking-wide">Lee Krasner, <span className="italic">The Seasons</span>, 1957.</p>
-                <p className="text-sm text-neutral-600 italic">Oil and house paint on canvas, 92 3/4 x 203 7/8 in.</p>
+                <p className="text-sm text-neutral-600 italic">
+                  Oil and house paint on canvas, 92 3/4 x 203 7/8 in.
+                </p>
+                <p className="text-sm text-neutral-600 italic">
+                  Detail 1: "breastlike forms" (Hobbs 5). Detail 2: leafy-green patches
+                </p>
               </div>
             </div>
             
+            
             {/* Organic Detail Blobs - Pop In */}
             <div className="col-span-12 md:col-span-3 space-y-8 flex flex-col items-center md:items-end">
-               <div className="animate-on-scroll pop-in delay-100 bg-[#F2EFE9] p-4 w-48 h-48 flex flex-col items-center justify-center shadow-[8px_8px_0px_0px_#2A4A36] rounded-[30%_70%_70%_30%/30%_30%_70%_70%] hover:rounded-[50%] transition-all duration-500 overflow-hidden border-4 border-[#1A1818]">
-                  <div className="bg-neutral-300 w-24 h-24 mb-2 rounded-full"></div>
-                  <p className="font-bold text-xs uppercase bg-white px-2">[Detail 1]</p>
-               </div>
-               
-               <div className="animate-on-scroll pop-in delay-200 bg-[#BE1E5D] p-4 w-56 h-56 flex flex-col items-center justify-center shadow-[8px_8px_0px_0px_#1A1818] rounded-[68%_32%_47%_53%/44%_53%_47%_56%] hover:rotate-12 transition-all duration-500 overflow-hidden border-4 border-[#F2EFE9]">
-                  <div className="bg-neutral-300 w-28 h-28 mb-2 rounded-full mix-blend-screen"></div>
-                  <p className="font-bold text-xs uppercase bg-white px-2 text-[#BE1E5D]">[Detail 2]</p>
-               </div>
+              <div className="animate-on-scroll pop-in delay-100 bg-[#F2EFE9] p-6 w-65 h-65 flex flex-col items-center justify-center shadow-[8px_8px_0px_0px_#2A4A36] rounded-[30%_70%_70%_30%/30%_30%_70%_70%] hover:rounded-[50%] transition-all duration-500 overflow-hidden border-4 border-[#1A1818]">
+                  <img src="./public/breastlike.png" className="w-56 h-56 object-cover rounded-full mb-3 border-4 border-[#1A1818]"></img>
+                  <p className="font-bold text-sm uppercase bg-white px-3 py-1 shadow-md">[Detail 1]</p>
+              </div>
+              
+              <div className="animate-on-scroll pop-in delay-200 bg-[#BE1E5D] p-6 w-67 h-67 flex flex-col items-center justify-center shadow-[8px_8px_0px_0px_#1A1818] rounded-[68%_32%_47%_53%/44%_53%_47%_56%] hover:rotate-12 transition-all duration-500 overflow-hidden border-4 border-[#F2EFE9]">
+                  <img src="./public/plant.png" className="w-56 h-56 object-cover rounded-full mb-3 border-4 border-white"></img>
+                  <p className="font-bold text-sm uppercase bg-white px-3 py-1 text-[#BE1E5D] shadow-md">[Detail 2]</p>
+              </div>
             </div>
           </div>
         </div>
@@ -219,21 +225,56 @@ function App() {
                     Visual Description
                   </p>
                 </div>
+
+                {/* Image Placeholder 1 - Below title */}
+                <div className="mt-12 animate-on-scroll pop-in delay-200">
+                  <div className="relative w-full">
+                    <div className="bg-[#F2EFE9] p-4 shadow-xl transform rotate-3 hover:rotate-6 transition-transform duration-300 rounded-[45%_55%_52%_48%/48%_62%_38%_52%]"
+                        style={{clipPath: 'polygon(5% 2%, 98% 0%, 100% 92%, 8% 100%, 0% 10%)'}}>
+                      <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#6BAF58] opacity-50 rounded-full z-20"></div>
+                      <div className="bg-neutral-200 aspect-[3/4] w-full flex items-center justify-center hover:grayscale-0 transition-all duration-500">
+                        <span className="text-sm font-bold text-neutral-400">
+                          <img src="./public/peach.png"></img>
+                        </span>
+                      </div>
+                    </div>
+                    <p className="font-mono text-xs text-center mt-3 text-white bg-[#2A4A36] px-3 py-2 shadow-lg transform rotate-1">
+                      The fruit-like shapes in the painting suggest fertility and growth.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-12 animate-on-scroll pop-in delay-200">
+                  <div className="relative w-full">
+                    <div className="bg-[#F2EFE9] p-4 shadow-xl transform rotate-3 hover:rotate-10 transition-transform duration-300 rounded-[45%_55%_52%_48%/48%_62%_38%_52%]"
+                        style={{clipPath: 'polygon(5% 2%, 98% 0%, 100% 92%, 8% 100%, 0% 10%)'}}>
+                      <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#6BAF58] opacity-50 rounded-full z-20"></div>
+                      <div className="bg-neutral-200 aspect-[3/4] w-full flex items-center justify-center hover:grayscale-0 transition-all duration-500">
+                        <span className="text-sm font-bold text-neutral-400">
+                          <img src="./public/palegreen.png" className="max-w-[300px]"></img>
+                        </span>
+                      </div>
+                    </div>
+                    <p className="font-mono text-xs text-center mt-3 text-white bg-[#BE1E5D] px-3 py-2 shadow-lg transform rotate-1">
+                    The greens on the left side of the painting appear to be less alive in color.                    
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             
             {/* Text Content - Slide In Up */}
-            <div className="col-span-12 md:col-span-8">
+            <div className="col-span-12 md:col-span-8 space-y-8">
               <div className="animate-on-scroll fade-up bg-[#F2EFE9] text-[#1A1818] p-10 md:p-16 shadow-[20px_20px_0px_0px_#1A1818] transform rotate-1"
                    style={{clipPath: 'polygon(2% 0%, 99% 1%, 100% 98%, 1% 99%)'}}>
                 <p className="text-sm leading-relaxed mb-6 font-medium">
-When you look at The Seasons (1957) by Lee Krasner, you see a huge, striking burst of massive rounded shapes in hot pink, fleshy pink, green, and white that are all tangled in thick, dark lines. These big formations feel almost organic, like giant fruits or even cells; the hot-pink areas swell like enormous growing fruits or budding flowers whereas the leafy-green patches are applied throughout the piece more thinly, suggesting an unkempt garden. The center of the work immediately grabs any viewer’s attention, featuring a large, dominant fleshy orb that looks as if it is swallowing the surrounding shapes due to its sheer size, like it has its own gravity. You then follow the restless vine-looking lines as they wriggle to the right, carving a clear guide of where to direct your attention through the piece. Eventually, you find yourself right back in the middle of the composition, where you uncover what seems to be an upside-down heart. This heart-like form also looks as if the surrounding shapes are bearing the shape like a fruit, almost to the point of growing too heavy and dropping to the floor. 
+When you look at The Seasons (1957) by Lee Krasner, you see a huge, striking burst of massive rounded shapes in hot pink, fleshy pink, green, and white that are all tangled in thick, dark lines. These big formations feel almost organic, like giant fruits or even cells; the hot-pink areas swell like enormous growing fruits or budding flowers whereas the leafy-green patches are applied throughout the piece more thinly, suggesting an unkempt garden. The center of the work immediately grabs any viewer's attention, featuring a large, dominant fleshy orb that looks as if it is swallowing the surrounding shapes due to its sheer size, like it has its own gravity. You then follow the restless vine-looking lines as they wriggle to the right, carving a clear guide of where to direct your attention through the piece. Eventually, you find yourself right back in the middle of the composition, where you uncover what seems to be an upside-down heart. This heart-like form also looks as if the surrounding shapes are bearing the shape like a fruit, almost to the point of growing too heavy and dropping to the floor. 
                 </p>
                 
                 
 
                 <p className="text-sm leading-relaxed mb-6">
-Upon taking a few steps back (away from the painting), one can see the sheer size of the piece. The canvas is nearly 17 feet long and 8 feet tall, and so it is very easy to get immersed in it. The horizontal length of the painting forces the viewer to scan the sections one at a time rather than the big picture. It is as if we are standing at the top of a mountain, surrounded by this lush green and pink landscape that Krasner envisioned. The sheer length facilitates a viewing experience that grows and unfolds over time, similar to the changing of “seasons” as the title of the piece suggests. In addition, the greens at the very left of the piece are paler and weaker than the greens present at the very right of the piece, suggesting that the piece begins with fall then ends with spring. The “changing seasons” aspect of the piece is further backed up as the physical width of the canvas forces the viewer to experience the painting as a sequence of events rather than one single event.
+Upon taking a few steps back (away from the painting), one can see the sheer size of the piece. The canvas is nearly 17 feet long and 8 feet tall, and so it is very easy to get immersed in it. The horizontal length of the painting forces the viewer to scan the sections one at a time rather than the big picture. It is as if we are standing at the top of a mountain, surrounded by this lush green and pink landscape that Krasner envisioned. The sheer length facilitates a viewing experience that grows and unfolds over time, similar to the changing of "seasons" as the title of the piece suggests. In addition, the greens at the very left of the piece are paler and weaker than the greens present at the very right of the piece, suggesting that the piece begins with fall then ends with spring. The "changing seasons" aspect of the piece is further backed up as the physical width of the canvas forces the viewer to experience the painting as a sequence of events rather than one single event.
 
                 </p>
 
@@ -254,10 +295,12 @@ years," (Murray 134)"              </p>
                 </div>
 
                 <p className="text-sm leading-relaxed mb-6">
-	Krasner not only manifests her grief on the canvas, but it seems like she paints her perspective as a woman, as well. Throughout the painting, there are many feminine characteristics such as the fleshy pinks, the peach-like shapes that suggest fertility, flowery shapes such as petals, as well as “breastlike forms,” as art historian Hobbs identifies (Hobbs 5). Krasner seemed to have made the piece a projection of her own body, seeing as the canvas is flowing with this chaotic, life-bearing energy thanks to the abundance of natural elements (plants, fruits, flowers).
+	Krasner not only manifests her grief on the canvas, but it seems like she paints her perspective as a woman, as well. Throughout the painting, there are many feminine characteristics such as the fleshy pinks, the peach-like shapes that suggest fertility, flowery shapes such as petals, as well as "breastlike forms," as art historian Hobbs identifies (Hobbs 5). Krasner seemed to have made the piece a projection of her own body, seeing as the canvas is flowing with this chaotic, life-bearing energy thanks to the abundance of natural elements (plants, fruits, flowers).
 
                 </p>
               </div>
+
+              
             </div>
           </div>
         </div>
@@ -285,33 +328,56 @@ years," (Murray 134)"              </p>
            </div>
 
            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-             {/* Analysis Text */}
-             <div className="order-2 md:order-1 border-l-[12px] border-[#BE1E5D] pl-8 py-2 border-dashed animate-on-scroll slide-right">
-               <p className="text-sm leading-relaxed mb-6 font-black">
-The big ideas circulating in this painting seem to be about the impermanence of life, rebirth, and personal renewal. Throughout the painting, we are greeted with motifs of life and change, as apparent with the fruit-like shapes and the growing greenery. The title “The Seasons” also serves to explain the living characteristics of the piece as well as the fertility and life in it. But the title also focuses our attention on the idea of time moving forward. It implies that just like nature has to go through winter to get to spring, people have to go through hard times to find new growth. Moreover, the sheer size of the canvas forces the viewer to confront these cycles not as static events, but as a continuous flow that grows and unfolds.
+             {/* Analysis Text with Image Placeholder */}
+             <div className="order-2 md:order-1 space-y-8">
+               <div className="border-l-[12px] border-[#BE1E5D] pl-8 py-2 border-dashed animate-on-scroll slide-right">
+                 <p className="text-sm leading-relaxed mb-6 font-black">
+The big ideas circulating in this painting seem to be about the impermanence of life, rebirth, and personal renewal. Throughout the painting, we are greeted with motifs of life and change, as apparent with the fruit-like shapes and the growing greenery. The title "The Seasons" also serves to explain the living characteristics of the piece as well as the fertility and life in it. But the title also focuses our attention on the idea of time moving forward. It implies that just like nature has to go through winter to get to spring, people have to go through hard times to find new growth. Moreover, the sheer size of the canvas forces the viewer to confront these cycles not as static events, but as a continuous flow that grows and unfolds.
 
-               </p>
-               <p className="text-sm leading-relaxed mb-6 font-black">
-This artwork leads us to imagine how the time of the painting marked a big change in Krasner’s life, where she was finally free from her husband. It was conceived shortly after her husband, Jackson Pollock, passed away, which could explain the wildness and livid energy that can be seen throughout the canvas. The long, thick brushstrokes as well as the dripping paint, signifying that the stroke was done quickly and savagely could be explained by the specific historical moment of taking place immediately after his death. The significance of this painting, if one had to explain it to another, would point to the raw energy it exerts. It is interesting because the painting acts like a physical record of her emotions, showing exactly where her grief turned into creative power. It is as if the painting is the release of everything she held back, a sentiment Murray describes as a "furious jubilation" (Murray 133).
+                 </p>
+                 <p className="text-sm leading-relaxed mb-6 font-black">
+This artwork leads us to imagine how the time of the painting marked a big change in Krasner's life, where she was finally free from her husband. It was conceived shortly after her husband, Jackson Pollock, passed away, which could explain the wildness and livid energy that can be seen throughout the canvas. The long, thick brushstrokes as well as the dripping paint, signifying that the stroke was done quickly and savagely could be explained by the specific historical moment of taking place immediately after his death. The significance of this painting, if one had to explain it to another, would point to the raw energy it exerts. It is interesting because the painting acts like a physical record of her emotions, showing exactly where her grief turned into creative power. It is as if the painting is the release of everything she held back, a sentiment Murray describes as a "furious jubilation" (Murray 133).
 
-               </p>
-               <p className="text-sm leading-relaxed mb-6 font-black">
-However, the piece also poses a significant question as to whether or not Krasner truly believed her own words. In an interview, she stated, “When I am painting, and this is a heroic task, the question of male or female is irrelevant” (Rago 237). Yet, The Seasons is scattered with feminine imagery, from the curvaceous forms to the fertile, fruit-like shapes. This contradiction forces us to consider if she was trying to separate her gender from her work, or if her subconscious perspective as a woman was simply too strong to ignore. Ultimately, the painting stands as a complex record of a woman processing grief and freedom simultaneously.
+                 </p>
+                 <p className="text-sm leading-relaxed mb-6 font-black">
+However, the piece also poses a significant question as to whether or not Krasner truly believed her own words. In an interview, she stated, "When I am painting, and this is a heroic task, the question of male or female is irrelevant" (Rago 237). Yet, The Seasons is scattered with feminine imagery, from the curvaceous forms to the fertile, fruit-like shapes. This contradiction forces us to consider if she was trying to separate her gender from her work, or if her subconscious perspective as a woman was simply too strong to ignore. Ultimately, the painting stands as a complex record of a woman processing grief and freedom simultaneously.
 
-               </p>
-             </div>
-
-             {/* Artist Photo Snapshot */}
-             <div className="order-1 md:order-2 flex justify-center animate-on-scroll pop-in">
-               <div className="bg-white p-4 shadow-xl transform rotate-3 w-80 relative hover:rotate-6 transition-transform duration-300">
-                 <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#2A4A36] rounded-full z-20"></div>
-                 <div className="bg-neutral-200 aspect-[3/4] w-full mb-4 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500">
-                   <span className="text-sm font-bold"><img src="./public/krasner1.png"></img></span>
-                 </div>
-                 <p className="font-mono text-xs text-center border-t border-dashed border-[#1A1818] pt-2">
-                   Lee Krasner in her studio. (1956)
                  </p>
                </div>
+
+               
+             </div>
+
+             {/* Artist Photo Snapshot and Additional Image */}
+             <div className="order-1 md:order-2 space-y-12">
+               {/* Existing Artist Photo */}
+               <div className="flex justify-center animate-on-scroll pop-in">
+                 <div className="bg-white p-4 shadow-xl transform rotate-3 w-80 relative hover:rotate-6 transition-transform duration-300">
+                   <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#2A4A36] rounded-full z-20"></div>
+                   <div className="bg-neutral-200 aspect-[3/4] w-full mb-4 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500">
+                     <span className="text-sm font-bold"><img src="./public/krasner1.png"></img></span>
+                   </div>
+                   <p className="font-mono text-xs text-center border-t border-dashed border-[#1A1818] pt-2">
+                     Lee Krasner in her studio. (1956)
+                   </p>
+                 </div>
+               </div>
+
+               {/* Image Placeholder 4 - Second image in right column */}
+               <div className="flex justify-center animate-on-scroll pop-in delay-100">
+                  <div className="relative w-80">
+                    <div className="bg-[#6BAF58] p-4 shadow-xl transform -rotate-3 hover:-rotate-6 transition-transform duration-300 rounded-[48%_52%_58%_42%/52%_48%_52%_48%]"
+                        style={{clipPath: 'polygon(2% 5%, 98% 0%, 100% 90%, 5% 100%)'}}>
+                      <div className="absolute bottom-0 left-0 w-16 h-16 bg-[#F2EFE9] opacity-50 rounded-full z-20 transform -translate-x-3 translate-y-3"></div>
+                      <div className="bg-neutral-200 w-full flex items-center justify-center hover:grayscale-0 transition-all duration-500">
+                          <img src="./public/barn.png"></img>
+                      </div>
+                    </div>
+                    <p className="font-mono text-xs text-center mt-3 text-white bg-[#2A4A36] px-3 py-2 shadow-lg transform -rotate-1">
+                        Pollock's barn studio where Krasner painted "The Seasons."
+                    </p>
+                  </div>
+                </div>
              </div>
            </div>
         </div>
@@ -331,17 +397,17 @@ However, the piece also poses a significant question as to whether or not Krasne
           </h2>
           <div className="font-mono text-sm space-y-6 border-l-2 border-[#6BAF58] pl-8">
             <p className="-indent-8 ml-8 hover:text-[#BE1E5D] transition-colors cursor-default">
-Hobbs, Robert. “Lee Krasner’s Skepticism and Her Emergent Postmodernism.” Woman’s 
+Hobbs, Robert. "Lee Krasner's Skepticism and Her Emergent Postmodernism." Woman's 
 Art Journal, vol. 28, no. 2, 2007, pp. 3–10. JSTOR, 
 http://www.jstor.org/stable/20358125. Accessed 9 Oct. 2025.
             </p>
             <p className="-indent-8 ml-8 hover:text-[#BE1E5D] transition-colors cursor-default">
-              Murray, Yxta Maya. “The Seasons.” Chicago Review, vol. 60, no. 2, 2016, pp. 132–34. 
+              Murray, Yxta Maya. "The Seasons." Chicago Review, vol. 60, no. 2, 2016, pp. 132–34. 
 JSTOR, http://www.jstor.org/stable/26379970. Accessed 9 Oct. 2025
 
             </p>
             <p className="-indent-8 ml-8 hover:text-[#BE1E5D] transition-colors cursor-default">
-              Rago, Louise Elliott, and Lee Krasner. “We Interview Lee Krasner.” Reading Abstract 
+              Rago, Louise Elliott, and Lee Krasner. "We Interview Lee Krasner." Reading Abstract 
 Expressionism: Context and Critique, edited by Ellen G. Landau, Yale University Press, 2005, 
 pp. 236–39. JSTOR, http://www.jstor.org/stable/j.ctt32bk1z.34. Accessed 9 Oct. 2025.
 
