@@ -251,13 +251,12 @@ function App() {
                       <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#6BAF58] opacity-50 rounded-full z-20"></div>
                       <div className="bg-neutral-200 aspect-[3/4] w-full flex items-center justify-center hover:grayscale-0 transition-all duration-500">
                         <span className="text-sm font-bold text-neutral-400">
-                          <img src="./public/palegreen.png" className="max-w-[300px]"></img>
+                          <img src="./public/reference.png" className="max-w-[300px]"></img>
                         </span>
                       </div>
                     </div>
                     <p className="font-mono text-xs text-center mt-3 text-white bg-[#BE1E5D] px-3 py-2 shadow-lg transform rotate-1">
-                    The greens on the left side of the painting appear to be less alive in color.                    
-                    </p>
+A woman standing next to the canvas; the sheer size of the work can be seen.                    </p>
                   </div>
                 </div>
               </div>
@@ -267,6 +266,10 @@ function App() {
             <div className="col-span-12 md:col-span-8 space-y-8">
               <div className="animate-on-scroll fade-up bg-[#F2EFE9] text-[#1A1818] p-10 md:p-16 shadow-[20px_20px_0px_0px_#1A1818] transform rotate-1"
                    style={{clipPath: 'polygon(2% 0%, 99% 1%, 100% 98%, 1% 99%)'}}>
+
+                <p className="text-m leading-relaxed mb-6 font-bold">
+What do you see?: Exploring Krasner's "The Seasons" (1957)              
+                </p>
                 <p className="text-sm leading-relaxed mb-6 font-medium">
 When you look at The Seasons (1957) by Lee Krasner, you see a huge, striking burst of massive rounded shapes in hot pink, fleshy pink, green, and white that are all tangled in thick, dark lines. These big formations feel almost organic, like giant fruits or even cells; the hot-pink areas swell like enormous growing fruits or budding flowers whereas the leafy-green patches are applied throughout the piece more thinly, suggesting an unkempt garden. The center of the work immediately grabs any viewer's attention, featuring a large, dominant fleshy orb that looks as if it is swallowing the surrounding shapes due to its sheer size, like it has its own gravity. You then follow the restless vine-looking lines as they wriggle to the right, carving a clear guide of where to direct your attention through the piece. Eventually, you find yourself right back in the middle of the composition, where you uncover what seems to be an upside-down heart. This heart-like form also looks as if the surrounding shapes are bearing the shape like a fruit, almost to the point of growing too heavy and dropping to the floor. 
                 </p>
@@ -331,15 +334,18 @@ years," (Murray 134)"              </p>
              {/* Analysis Text with Image Placeholder */}
              <div className="order-2 md:order-1 space-y-8">
                <div className="border-l-[12px] border-[#BE1E5D] pl-8 py-2 border-dashed animate-on-scroll slide-right">
-                 <p className="text-sm leading-relaxed mb-6 font-black">
+                <p className="text-m leading-relaxed mb-6 font-bold">
+"Grief, Gender, and Growth": An Analysis of "The Seasons" (1957)             
+                </p>
+                 <p className="text-sm leading-relaxed mb-6 font-m">
 The big ideas circulating in this painting seem to be about the impermanence of life, rebirth, and personal renewal. Throughout the painting, we are greeted with motifs of life and change, as apparent with the fruit-like shapes and the growing greenery. The title "The Seasons" also serves to explain the living characteristics of the piece as well as the fertility and life in it. But the title also focuses our attention on the idea of time moving forward. It implies that just like nature has to go through winter to get to spring, people have to go through hard times to find new growth. Moreover, the sheer size of the canvas forces the viewer to confront these cycles not as static events, but as a continuous flow that grows and unfolds.
 
                  </p>
-                 <p className="text-sm leading-relaxed mb-6 font-black">
+                 <p className="text-sm leading-relaxed mb-6 font-m">
 This artwork leads us to imagine how the time of the painting marked a big change in Krasner's life, where she was finally free from her husband. It was conceived shortly after her husband, Jackson Pollock, passed away, which could explain the wildness and livid energy that can be seen throughout the canvas. The long, thick brushstrokes as well as the dripping paint, signifying that the stroke was done quickly and savagely could be explained by the specific historical moment of taking place immediately after his death. The significance of this painting, if one had to explain it to another, would point to the raw energy it exerts. It is interesting because the painting acts like a physical record of her emotions, showing exactly where her grief turned into creative power. It is as if the painting is the release of everything she held back, a sentiment Murray describes as a "furious jubilation" (Murray 133).
 
                  </p>
-                 <p className="text-sm leading-relaxed mb-6 font-black">
+                 <p className="text-sm leading-relaxed mb-6 font-m">
 However, the piece also poses a significant question as to whether or not Krasner truly believed her own words. In an interview, she stated, "When I am painting, and this is a heroic task, the question of male or female is irrelevant" (Rago 237). Yet, The Seasons is scattered with feminine imagery, from the curvaceous forms to the fertile, fruit-like shapes. This contradiction forces us to consider if she was trying to separate her gender from her work, or if her subconscious perspective as a woman was simply too strong to ignore. Ultimately, the painting stands as a complex record of a woman processing grief and freedom simultaneously.
 
                  </p>
