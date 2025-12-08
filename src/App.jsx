@@ -160,7 +160,7 @@ function App() {
                   {/* The Painting */}
                   <div className="relative bg-white p-2 transform -rotate-1 hover:rotate-0 transition-transform duration-500 ease-out" style={{clipPath: 'polygon(1% 1%, 99% 0%, 100% 98%, 0% 100%)'}}>
                     <div className="bg-neutral-200 aspect-[2.2/1] w-full flex items-center justify-center relative overflow-hidden group cursor-crosshair">
-                      <span className="text-neutral-500 font-bold tracking-widest group-hover:scale-110 transition-transform duration-700"><img src="/public/the-seasons.jpeg"></img></span>
+                      <span className="text-neutral-500 font-bold tracking-widest group-hover:scale-110 transition-transform duration-700"><img src="/the-seasons.jpeg"></img></span>
                       <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity"></div>
                     </div>
                   </div>
@@ -182,12 +182,12 @@ function App() {
             {/* Organic Detail Blobs - Pop In */}
             <div className="col-span-12 md:col-span-3 space-y-8 flex flex-col items-center md:items-end">
               <div className="animate-on-scroll pop-in delay-100 bg-[#F2EFE9] p-6 w-65 h-65 flex flex-col items-center justify-center shadow-[8px_8px_0px_0px_#2A4A36] rounded-[30%_70%_70%_30%/30%_30%_70%_70%] hover:rounded-[50%] transition-all duration-500 overflow-hidden border-4 border-[#1A1818]">
-                  <img src="/public/breastlike.png" className="w-56 h-56 object-cover rounded-full mb-3 border-4 border-[#1A1818]"></img>
+                  <img src="/breastlike.png" className="w-56 h-56 object-cover rounded-full mb-3 border-4 border-[#1A1818]"></img>
                   <p className="font-bold text-sm uppercase bg-white px-3 py-1 shadow-md">[Detail 1]</p>
               </div>
               
               <div className="animate-on-scroll pop-in delay-200 bg-[#BE1E5D] p-6 w-67 h-67 flex flex-col items-center justify-center shadow-[8px_8px_0px_0px_#1A1818] rounded-[68%_32%_47%_53%/44%_53%_47%_56%] hover:rotate-12 transition-all duration-500 overflow-hidden border-4 border-[#F2EFE9]">
-                  <img src="/public/plant.png" className="w-56 h-56 object-cover rounded-full mb-3 border-4 border-white"></img>
+                  <img src="/plant.png" className="w-56 h-56 object-cover rounded-full mb-3 border-4 border-white"></img>
                   <p className="font-bold text-sm uppercase bg-white px-3 py-1 text-[#BE1E5D] shadow-md">[Detail 2]</p>
               </div>
             </div>
@@ -234,7 +234,7 @@ function App() {
                       <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#6BAF58] opacity-50 rounded-full z-20"></div>
                       <div className="bg-neutral-200 aspect-[3/4] w-full flex items-center justify-center hover:grayscale-0 transition-all duration-500">
                         <span className="text-sm font-bold text-neutral-400">
-                          <img src="/public/peach.png"></img>
+                          <img src="/peach.png"></img>
                         </span>
                       </div>
                     </div>
@@ -251,7 +251,7 @@ function App() {
                       <div className="absolute -top-4 -left-4 w-16 h-16 bg-[#6BAF58] opacity-50 rounded-full z-20"></div>
                       <div className="bg-neutral-200 aspect-[3/4] w-full flex items-center justify-center hover:grayscale-0 transition-all duration-500">
                         <span className="text-sm font-bold text-neutral-400">
-                          <img src="/public/reference.png" className="max-w-[300px]"></img>
+                          <img src="/reference.png" className="max-w-[300px]"></img>
                         </span>
                       </div>
                     </div>
@@ -361,7 +361,7 @@ However, the piece also poses a significant question as to whether or not Krasne
                  <div className="bg-white p-4 shadow-xl transform rotate-3 w-80 relative hover:rotate-6 transition-transform duration-300">
                    <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#2A4A36] rounded-full z-20"></div>
                    <div className="bg-neutral-200 aspect-[3/4] w-full mb-4 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-500">
-                     <span className="text-sm font-bold"><img src="/public/krasner1.png"></img></span>
+                     <span className="text-sm font-bold"><img src="/krasner1.png"></img></span>
                    </div>
                    <p className="font-mono text-xs text-center border-t border-dashed border-[#1A1818] pt-2">
                      Lee Krasner in her studio. (1956)
@@ -376,7 +376,7 @@ However, the piece also poses a significant question as to whether or not Krasne
                         style={{clipPath: 'polygon(2% 5%, 98% 0%, 100% 90%, 5% 100%)'}}>
                       <div className="absolute bottom-0 left-0 w-16 h-16 bg-[#F2EFE9] opacity-50 rounded-full z-20 transform -translate-x-3 translate-y-3"></div>
                       <div className="bg-neutral-200 w-full flex items-center justify-center hover:grayscale-0 transition-all duration-500">
-                          <img src="/public/barn.png"></img>
+                          <img src="/barn.png"></img>
                       </div>
                     </div>
                     <p className="font-mono text-xs text-center mt-3 text-white bg-[#2A4A36] px-3 py-2 shadow-lg transform -rotate-1">
